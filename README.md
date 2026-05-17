@@ -71,20 +71,20 @@ Move selection
 ```text
 MiniAlphaZeroChess/
 │
-├── SelfPlay_NewSettings_Trainer.py
-├── PlayableChess_NewSettings.py
+├── Play_agent.py
+├── Train_selfplay.py
 │
-├── models/
-│   ├── checkpoints
-│   └── saved agents
+├── Models/
+│   ├── alphazero_optimized_agent_final.pth
+│   └── best_alphazero_optimized_agent.pth
 │
-├── plots/
+├── Plots/
 │   └── training_progress.png
 │   
-├── results/
+├── Results/
 │   └── training_history.json
 │
-├── assets/
+├── Assets/
 │
 └── README.md
 ```
@@ -126,7 +126,7 @@ After training, the model can be evaluated directly through an interactive inter
 File:
 
 ```text
-PlayableChess_NewSettings.py
+Play_agent.py
 ```
 
 Capabilities:
@@ -158,13 +158,13 @@ Human vs Agent match
 ### Train the model
 
 ```bash
-python SelfPlay_NewSettings_Trainer.py
+python Train_selfplay.py
 ```
 
 ### Play against the trained model
 
 ```bash
-python PlayableChess_NewSettings.py
+python Play_agent.py
 ```
 
 Training cycle:
