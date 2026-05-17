@@ -276,9 +276,7 @@ Training monitoring includes:
 
 Example:
 
-```md
-![Training Progress](plots/training_progress.png)
-```
+<img src="https://github.com/ThomasAgd/Mini-alphazero-chess/blob/main/Plots/training_progress.png" alt="Training Progress" width="600" />
 
 Visual outputs currently monitor:
 
