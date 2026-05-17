@@ -81,12 +81,10 @@ MiniAlphaZeroChess/
 ├── plots/
 │   └── training_progress.png
 │   
-│
 ├── results/
 │   └── training_history.json
 │
 ├── assets/
-│
 │
 └── README.md
 ```
