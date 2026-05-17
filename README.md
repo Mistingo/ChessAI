@@ -79,15 +79,14 @@ MiniAlphaZeroChess/
 │   └── saved agents
 │
 ├── plots/
-│   ├── training_progress.png
-│   └── evaluation graphs
+│   └── training_progress.png
+│   
 │
 ├── results/
-│   └── training statistics
+│   └── training_history.json
 │
 ├── assets/
 │
-├── training_history.json
 │
 └── README.md
 ```
